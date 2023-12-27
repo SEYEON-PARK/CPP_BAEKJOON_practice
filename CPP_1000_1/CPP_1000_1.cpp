@@ -15,7 +15,7 @@ int main(void)
     cin >> A; // 사용자로부터 정수 입력받기
     cin >> B; // 사용자로부터 정수 입력받기
     
-    cout << A+B;
+    cout << A+B; // 결과 출력하기
     
     return 0;
 }
