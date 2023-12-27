@@ -12,8 +12,8 @@ using namespace std;
 int main(void)
 {
     int A, B; // 변수 선언
-    cin >> A;
-    cin >> B;
+    cin >> A; // 사용자로부터 정수 입력받기
+    cin >> B; // 사용자로부터 정수 입력받기
     
     cout << A+B;
     
