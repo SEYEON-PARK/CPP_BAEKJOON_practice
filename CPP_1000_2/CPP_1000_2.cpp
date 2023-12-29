@@ -11,8 +11,8 @@ using namespace std;
 
 int main(void)
 {
-    int A, B;
-    cin >> A >> B;
+    int A, B; // 변수 선언
+    cin >> A >> B; 
     
     cout << A+B;
     
