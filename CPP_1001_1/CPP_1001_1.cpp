@@ -13,7 +13,7 @@ int main(void)
 {
     int A, B; // 변수 선언
     cin >> A >> B; // 사용자로부터 두 개의 정수 입력받기
-    cout << A-B;
+    cout << A-B; // 결과 출력하기
     
     return 0;
 }
