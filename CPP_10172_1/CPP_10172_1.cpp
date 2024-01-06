@@ -11,7 +11,7 @@ using namespace std;
 
 int main(void)
 {
-    // 개 모양대로 출력하기!
+    // 요구사항(개 모양)대로 출력하기!
     cout << "|\\_/|" << endl;
     cout << "|q p|   /}" << endl;
     cout << "( 0 )\"\"\"\\" << endl;
