@@ -5,3 +5,20 @@
 
 첫째 줄에 입력으로 주어진 단어의 길이를 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    char message[101];
+    cin >> message;
+    
+    int count=0;
+    for(int i=0;message[i]!=NULL;i++)
+        count++;
+    
+    cout << count;
+    
+    return 0;
+}
