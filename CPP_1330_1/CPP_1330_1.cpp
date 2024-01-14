@@ -14,8 +14,8 @@ using namespace std;
 
 int main(void)
 {
-    int A, B;
-    cin >> A >> B;
+    int A, B; // 변수 선언
+    cin >> A >> B; // 사용자로부터 정수 두 개 입력받기
     if(A>B)
         cout << '>';
     else if(A<B)
