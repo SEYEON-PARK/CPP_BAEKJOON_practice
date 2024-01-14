@@ -21,7 +21,7 @@ int main(void)
     else if(A<B) // 만약 A가 B보다 크지 않고, A가 B보다 작다면
         cout << '<'; // '<' 출력하기
     else // A가 B보다 크지 않고, A가 B보다 작지도 않다면(A와 B가 같다면)
-        cout << "=="; // '==' 출력하기
+        cout << "=="; // "==" 출력하기
     
     return 0;
 }
