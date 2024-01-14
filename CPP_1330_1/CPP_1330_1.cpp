@@ -16,8 +16,8 @@ int main(void)
 {
     int A, B; // 변수 선언
     cin >> A >> B; // 사용자로부터 정수 두 개 입력받기
-    if(A>B)
-        cout << '>';
+    if(A>B) // 만약, A가 B보다 크다면
+        cout << '>'; // '>' 출력하기
     else if(A<B)
         cout << '<';
     else
