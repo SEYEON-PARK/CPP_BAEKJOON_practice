@@ -18,10 +18,10 @@ int main(void)
     cin >> A >> B; // 사용자로부터 정수 두 개 입력받기
     if(A>B) // 만약, A가 B보다 크다면
         cout << '>'; // '>' 출력하기
-    else if(A<B)
-        cout << '<';
-    else
-        cout << "==";
+    else if(A<B) // 만약 A가 B보다 크지 않고, A가 B보다 작다면
+        cout << '<'; // '<' 출력하기
+    else // A가 B보다 크지 않고, A가 B보다 작지도 않다면(A와 B가 같다면)
+        cout << "=="; // '==' 출력하기
     
     return 0;
 }
