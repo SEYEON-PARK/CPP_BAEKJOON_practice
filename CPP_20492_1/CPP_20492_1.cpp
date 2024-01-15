@@ -11,3 +11,18 @@
 
 1번 경우에 대한 답과 2번 경우에 대한 답을 사이에 공백을 두고 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    int N;
+    cin >> N;
+    
+    int A = N*0.78;
+    int B = N*0.8 + N*0.2*0.78;
+    cout << A << ' ' << B;
+    
+    return 0;
+}
