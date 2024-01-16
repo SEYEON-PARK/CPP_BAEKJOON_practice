@@ -17,8 +17,8 @@ using namespace std;
 
 int main(void)
 {
-    int N;
-    cin >> N;
+    int N; // 변수 선언
+    cin >> N; // 사용자로부터 정수 입력받기
     
     int A = N*0.78;
     int B = N*0.8 + N*0.2*0.78;
