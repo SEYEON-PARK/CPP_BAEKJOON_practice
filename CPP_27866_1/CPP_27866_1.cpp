@@ -6,3 +6,19 @@
 
 S의 i번째 글자를 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    string s;
+    cin >> s;
+    
+    int index;
+    cin >> index;
+    
+    cout << s[index-1];
+    
+    return 0;
+}
