@@ -18,7 +18,7 @@ int main(void)
     int index; // 변수 선언
     cin >> index; // 사용자로부터 정수 입력받기
     
-    cout << s[index-1];
+    cout << s[index-1]; // 결과 출력하기
     
     return 0;
 }
