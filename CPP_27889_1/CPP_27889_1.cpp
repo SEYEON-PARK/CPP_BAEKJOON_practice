@@ -11,3 +11,31 @@ GEC에는 여러 학교가 있다. 각 학교의 약칭과 정식 명칭은 다�
 
 첫 번째 줄에 입력된 학교의 정식 명칭을 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    string shortString;
+    cin >> shortString;
+    
+    if(shortString == "NLCS")
+    {
+        cout << "North London Collegiate School";
+    }
+    else if(shortString == "BHA")
+    {
+        cout << "Branksome Hall Asia";
+    }
+    else if(shortString == "KIS")
+    {
+        cout << "Korea International School";
+    }
+    else
+    {
+        cout << "St. Johnsbury Academy";
+    }
+    
+    return 0;
+}
