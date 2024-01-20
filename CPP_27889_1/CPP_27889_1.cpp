@@ -20,21 +20,21 @@ int main(void)
     string shortString; // 변수 선언
     cin >> shortString; // 사용자로부터 문자열 입력받기
     
-    if(shortString == "NLCS") 
+    if(shortString == "NLCS") // 만약, shortString이 "NLCS"와 같다면
     {
-        cout << "North London Collegiate School";
+        cout << "North London Collegiate School"; // "North London Collegiate School" 출력하기
     }
-    else if(shortString == "BHA")
+    else if(shortString == "BHA") // 만약, shortString이 "NLCS"가 아니고, "BHA"와 같다면
     {
-        cout << "Branksome Hall Asia";
+        cout << "Branksome Hall Asia"; // "Branksome Hall Asia" 출력하기
     }
-    else if(shortString == "KIS")
+    else if(shortString == "KIS") // 만약, shortString이"NLCS"가 아니고, "BHA"도 아니고 "KIS"와 같다면
     {
-        cout << "Korea International School";
+        cout << "Korea International School"; // "Korea International School" 출력하기
     }
-    else
+    else // shortString이"NLCS"가 아니고, "BHA"도 아니고, "KIS"도 아니라면
     {
-        cout << "St. Johnsbury Academy";
+        cout << "St. Johnsbury Academy"; 
     }
     
     return 0;
