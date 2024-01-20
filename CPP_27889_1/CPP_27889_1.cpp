@@ -34,7 +34,7 @@ int main(void)
     }
     else // shortString이"NLCS"가 아니고, "BHA"도 아니고, "KIS"도 아니라면
     {
-        cout << "St. Johnsbury Academy"; 
+        cout << "St. Johnsbury Academy"; // "St. Johnsbury Academy" 출력하기
     }
     
     return 0;
