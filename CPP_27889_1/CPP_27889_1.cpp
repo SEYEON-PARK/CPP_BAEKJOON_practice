@@ -17,10 +17,10 @@ using namespace std;
 
 int main(void)
 {
-    string shortString;
-    cin >> shortString;
+    string shortString; // 변수 선언
+    cin >> shortString; // 사용자로부터 문자열 입력받기
     
-    if(shortString == "NLCS")
+    if(shortString == "NLCS") 
     {
         cout << "North London Collegiate School";
     }
