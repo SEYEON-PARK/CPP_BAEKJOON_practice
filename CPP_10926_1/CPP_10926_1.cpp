@@ -14,7 +14,7 @@ int main(void)
 {
     string id; // 변수 선언
     cin >> id; // 사용자로부터 문자열 입력받기
-    cout << id << "??!";
+    cout << id << "??!"; // 문제에서 요구한 형식대로 출력하기!
     
     return 0;
 }
