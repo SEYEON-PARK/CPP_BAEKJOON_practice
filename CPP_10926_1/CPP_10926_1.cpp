@@ -12,7 +12,7 @@ using namespace std;
 
 int main(void)
 {
-    string id;
+    string id; // 변수 선언
     cin >> id;
     cout << id << "??!";
     
