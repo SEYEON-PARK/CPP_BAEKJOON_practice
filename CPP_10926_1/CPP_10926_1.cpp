@@ -13,7 +13,7 @@ using namespace std;
 int main(void)
 {
     string id; // 변수 선언
-    cin >> id;
+    cin >> id; // 사용자로부터 문자열 입력받기
     cout << id << "??!";
     
     return 0;
