@@ -6,3 +6,32 @@
 
 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    int N;
+    int num[100];
+    int findNum, count=0;
+    
+    cin >> N;
+    
+    for(int i=0;i<N;i++)
+    {
+        cin >> num[i];
+    }
+    
+    cin >> findNum;
+    
+    for(int i=0;i<N;i++)
+    {
+        if(num[i]==findNum)
+            count++;
+    }
+    
+    cout << count;
+    
+    return 0;
+}
