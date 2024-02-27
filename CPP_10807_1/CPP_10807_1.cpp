@@ -18,12 +18,12 @@ int main(void)
     
     cin >> N; // 사용자로부터 정수 입력받기
     
-    for(int i=0;i<N;i++)
+    for(int i=0;i<N;i++) // i가 0부터 N보다 작을 때까지 1씩 증가하며 반복
     {
-        cin >> num[i];
+        cin >> num[i]; // 사용자로부터 정수 입력받기
     }
     
-    cin >> findNum;
+    cin >> findNum; // 사용자로부터 정수(찾고자 하는 수) 입력받기
     
     for(int i=0;i<N;i++)
     {
