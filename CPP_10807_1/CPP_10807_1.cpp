@@ -12,11 +12,11 @@ using namespace std;
 
 int main(void)
 {
-    int N;
-    int num[100];
-    int findNum, count=0;
+    int N; // 변수 선언
+    int num[100]; // 배열 선언
+    int findNum, count=0; // 변수 선언 및 초기화
     
-    cin >> N;
+    cin >> N; // 사용자로부터 정수 입력받기
     
     for(int i=0;i<N;i++)
     {
