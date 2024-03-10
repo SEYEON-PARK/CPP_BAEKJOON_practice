@@ -11,8 +11,8 @@ using namespace std;
 
 int main(void)
 {
-    int score;
-    cin >> score;
+    int score; // 변수 선언
+    cin >> score; // 사용자로부터 정수 입력받기
     
     if(score >= 90)
         cout << "A";
