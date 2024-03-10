@@ -14,8 +14,8 @@ int main(void)
     int score; // 변수 선언
     cin >> score; // 사용자로부터 정수 입력받기
     
-    if(score >= 90)
-        cout << "A";
+    if(score >= 90) // 만약, score이 90 이상이라면
+        cout << "A"; // "A" 출력하기
     else if(score >= 80)
         cout << "B";
     else if(score >= 70)
