@@ -29,8 +29,8 @@ int main(void)
     {
         for(int j=0;j<9;j++)
         {
-            cin >> number[i][j];
-            if(number[i][j]>big)
+            cin >> number[i][j]; // 사용자로부터 정수 입력받기
+            if(number[i][j]>big) // 만약, number[i][j]가 big보다 크다면
             {
                 big=number[i][j];
                 x=i+1;
