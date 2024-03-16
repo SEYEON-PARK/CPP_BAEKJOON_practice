@@ -27,20 +27,20 @@ int main(void)
     int big=-1, x, y; // 변수 선언 및 초기화
     for(int i=0;i<9;i++) // i에 0부터 9보다 작을 때까지 1씩 증가시킨 값을 대입하며 반복
     {
-        for(int j=0;j<9;j++)
+        for(int j=0;j<9;j++) // j에 0부터 9보다 작을 때까지 1씩 증가시킨 값을 대입하며 반복
         {
             cin >> number[i][j]; // 사용자로부터 정수 입력받기
             if(number[i][j]>big) // 만약, number[i][j]가 big보다 크다면
             {
-                big=number[i][j];
-                x=i+1;
-                y=j+1;
+                big=number[i][j]; // big에 number[i][j]의 값 대입하기
+                x=i+1; // x에 i+1의 값 대입하기
+                y=j+1; // y에 j+1의 값 대입하기
             }
         }
     }
     
-    cout << big << endl;
-    cout << x << " " << y;
+    cout << big << endl; // 결과(최댓값) 출력하기
+    cout << x << " " << y; // 결과(최댓값이 위치한 행 번호와 열 번호) 출력하기
     
     return 0;
 }
