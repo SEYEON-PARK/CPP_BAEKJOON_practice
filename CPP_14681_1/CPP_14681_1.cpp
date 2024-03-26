@@ -13,8 +13,8 @@ using namespace std;
 
 int main(void)
 {
-    int x, y;
-    cin >> x;
+    int x, y; // 변수 선언
+    cin >> x; 
     cin >> y;
     
     if(x>0)
