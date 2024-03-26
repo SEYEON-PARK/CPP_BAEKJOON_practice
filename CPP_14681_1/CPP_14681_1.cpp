@@ -14,8 +14,8 @@ using namespace std;
 int main(void)
 {
     int x, y; // 변수 선언
-    cin >> x; 
-    cin >> y;
+    cin >> x; // 사용자로부터 정수 입력받기
+    cin >> y; // 사용자로부터 정수 입력받기
     
     if(x>0)
     {
