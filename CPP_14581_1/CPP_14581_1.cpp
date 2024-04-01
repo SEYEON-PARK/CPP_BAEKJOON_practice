@@ -15,7 +15,8 @@ int main(void)
 {
     string s; // 변수 선언
     cin >> s; // 사용자로부터 문자열 입력받기
-    
+
+    // 결과 출력하기
     cout << ":fan::fan::fan:" << endl;
     cout << ":fan::" << s << "::fan:" << endl;
     cout << ":fan::fan::fan:" << endl;
