@@ -7,3 +7,18 @@
 
 3개의 줄에 걸쳐, 팬들에게 둘러싸인 홍준의 모습을 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    string s;
+    cin >> s;
+    
+    cout << ":fan::fan::fan:" << endl;
+    cout << ":fan::" << s << "::fan:" << endl;
+    cout << ":fan::fan::fan:" << endl;
+    
+    return 0;
+}
