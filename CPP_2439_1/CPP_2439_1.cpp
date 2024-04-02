@@ -6,3 +6,27 @@
 
 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    int N;
+    cin >> N;
+    
+    for(int i=1;i<=N;i++)
+    {
+        for(int j=N-i;j>0;j--)
+        {
+            cout << " ";
+        }
+        for(int k=0;k<i;k++){
+            cout << "*";
+        }
+        
+        cout << endl;
+    }
+    
+    return 0;
+}
