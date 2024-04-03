@@ -21,11 +21,11 @@ int main(void)
         {
             cout << " "; // " " 출력하기
         }
-        for(int k=0;k<i;k++){
-            cout << "*";
+        for(int k=0;k<i;k++){ // k에 0부터 i가 되기 전까지 1씩 증가시킨 값을 대입하며 반복
+            cout << "*"; // "*" 출력하기
         }
         
-        cout << endl;
+        cout << endl; // 한 줄 띄기
     }
     
     return 0;
