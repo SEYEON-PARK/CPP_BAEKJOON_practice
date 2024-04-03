@@ -15,11 +15,11 @@ int main(void)
     int N; // 변수 선언
     cin >> N; // 사용자로부터 정수 입력받기
     
-    for(int i=1;i<=N;i++)
+    for(int i=1;i<=N;i++) // i에 1부터 N까지 1씩 증가시킨 값을 대입하며 반복
     {
-        for(int j=N-i;j>0;j--)
+        for(int j=N-i;j>0;j--) // j에 N-i부터 0보다 클 때까지 1씩 감소시킨 값을 대입하며 반복
         {
-            cout << " ";
+            cout << " "; // " " 출력하기
         }
         for(int k=0;k<i;k++){
             cout << "*";
