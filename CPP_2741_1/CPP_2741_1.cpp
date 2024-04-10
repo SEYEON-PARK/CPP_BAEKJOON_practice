@@ -14,9 +14,9 @@ int main(void)
     int N; // 변수 선언
     cin >> N; // 사용자로부터 정수 입력받기
     
-    for(int i=1;i<=N;i++)
+    for(int i=1;i<=N;i++) // i에 1부터 N보다 작거나 같을 때까지 1씩 증가시킨 값을 대입하며 반복
     {
-        cout << i << '\n';
+        cout << i << '\n'; // 결과 출력하기
     }
     
     return 0;
