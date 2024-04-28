@@ -16,10 +16,10 @@ int main(void)
     int T; // 변수 선언
     cin >> T; // 사용자로부터 정수 입력받기
     
-    for(int i = 0; i < T; i++)
+    for(int i = 0; i < T; i++) // i가 0부터 T보다 작을 때까지 1씩 증가하며 반복
     {
-        int N, C, count = 0;
-        cin >> N >> C;
+        int N, C, count = 0; // 변수 선언 및 초기화
+        cin >> N >> C; // 사용자로부터 두 개의 정수 입력받기
         
         while(1)
         {
