@@ -21,23 +21,23 @@ int main(void)
         int N, C, count = 0; // 변수 선언 및 초기화
         cin >> N >> C; // 사용자로부터 두 개의 정수 입력받기
         
-        while(1)
+        while(1) // 무한 반복
         {
-            count = N / C;
-            N %= C;
+            count = N / C; // count에 N / C의 값 대입하기(정수 나눗셈)
+            N %= C; // N에 N % C의 값 대입하기
             
-            if(N % C != 0)
+            if(N % C != 0) // 만약, N % C가 0과 같지 않다면
             {
-                count++;
-                break;
+                count++; // count에 1 더하기
+                break; // 반복문 빠져 나가기
             }
-            else
+            else // 만약, N % C가 0과 같다면
             {
-                break;
+                break; // 반복문 빠져 나가기
             }
         }
         
-        cout << count << endl;
+        cout << count << endl; // 결과 출력하기
     }
     
     return 0;
