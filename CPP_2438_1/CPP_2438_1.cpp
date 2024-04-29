@@ -11,8 +11,8 @@ using namespace std;
 
 int main(void)
 {
-    int num;
-    cin >> num;
+    int num; // 변수 선언
+    cin >> num; // 사용자로부터 정수 입력받기
     
     for(int i=0;i<num;i++)
     {
