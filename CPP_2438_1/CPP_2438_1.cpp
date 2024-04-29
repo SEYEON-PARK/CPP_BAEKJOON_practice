@@ -16,11 +16,11 @@ int main(void)
     
     for(int i=0;i<num;i++) // i가 0부터 num보다 작을 때까지 1씩 증가하며 반복
     {
-        for(int j=0;j<=i;j++)
+        for(int j=0;j<=i;j++) // j가 0부터 i보다 작거나 같을 때까지 1씩 증가하며 반복
         {
             cout << '*'; // '*' 출력하기
         }
-        cout << '\n';
+        cout << '\n'; // 한 줄 띄기
     }
     
     return 0;
