@@ -19,9 +19,9 @@ using namespace std;
 int main(void)
 {
     int n; // 변수 선언
-    cin >> n;
+    cin >> n; // 사용자로부터 정수 입력받기
     
-    cout << '1' << endl << '0';
+    cout << '1' << endl << '0'; // 결과 출력하기
     
     return 0;
 }
