@@ -18,7 +18,7 @@ using namespace std;
 
 int main(void)
 {
-    int n;
+    int n; // 변수 선언
     cin >> n;
     
     cout << '1' << endl << '0';
