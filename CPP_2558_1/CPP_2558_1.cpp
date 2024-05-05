@@ -12,8 +12,8 @@ using namespace std;
 int main(void)
 {
     int A, B; // 변수 선언
-    cin >> A >> B;
-    cout << A+B;
+    cin >> A >> B; // 사용자로부터 정수 두 개 입력받기
+    cout << A+B; // 결과 출력하기
     
     return 0;
 }
