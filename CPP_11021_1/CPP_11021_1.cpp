@@ -15,11 +15,11 @@ int main(void)
     int N; // 변수 선언
     cin >> N; // 사용자로부터 정수 입력받기
     
-    for(int i=0;i<N;i++) 
+    for(int i=0;i<N;i++) // i가 0부터 N보다 작을 때까지 1씩 증가시킨 값을 대입하며 반복
     {
-        int a, b;
-        cin >> a >> b;
-        cout << "Case #" << i+1 << ": " << a+b << endl;
+        int a, b; // 변수 선언
+        cin >> a >> b; // 사용자로부터 두 개의 정수 입력받기
+        cout << "Case #" << i+1 << ": " << a+b << endl; // 결과 출력하기
     }
     
     return 0;
