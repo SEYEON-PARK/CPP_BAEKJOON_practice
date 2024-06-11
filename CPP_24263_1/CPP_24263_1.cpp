@@ -23,7 +23,7 @@ int main(void)
     int N; // 변수 선언
     cin >> N; // 사용자로부터 정수 입력받기
     
-    cout << N << "\n1";
+    cout << N << "\n1"; // 결과 출력하기
     
     return 0;
 }
