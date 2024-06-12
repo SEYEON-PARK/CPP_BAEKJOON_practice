@@ -7,3 +7,16 @@ ICPC Bangkok Regional에 참가하기 위해 수완나품 국제공항에 막 �
 
 불기 연도를 서기 연도로 변환한 결과를 출력한다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    int y;
+    cin >> y;
+    
+    cout << y-543;
+    
+    return 0;
+}
