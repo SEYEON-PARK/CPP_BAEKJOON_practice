@@ -16,7 +16,7 @@ int main(void)
     int y; // 변수 선언
     cin >> y; // 사용자로부터 정수 입력받기
     
-    cout << y-543;
+    cout << y-543; // 결과 출력하기
     
     return 0;
 }
