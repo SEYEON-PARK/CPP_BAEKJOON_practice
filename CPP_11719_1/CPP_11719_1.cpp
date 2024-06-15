@@ -6,3 +6,18 @@
 
 입력받은 그대로 출력한다.
 */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(void)
+{
+    string s;
+    while(getline(cin, s))
+    {
+        cout << s << '\n';
+    }
+    
+    return 0;
+}
