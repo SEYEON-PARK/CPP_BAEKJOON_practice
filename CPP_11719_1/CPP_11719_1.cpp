@@ -14,9 +14,9 @@ using namespace std;
 int main(void)
 {
     string s; // 변수 선언
-    while(getline(cin, s)) // cin을 이용하여 개행 문자(줄바꿈 문자) 전까지 입력받아 s에 저장하고, 만약 입력된 게 없다면 반복문 빠져 나가기!  
+    while(getline(cin, s)) // cin을 이용하여 개행 문자(줄바꿈 문자) 전까지 입력받아 s에 저장하면서 반복, 만약 입력된 게 없다면 반복문 빠져 나가기!  
     {
-        cout << s << '\n';
+        cout << s << '\n'; // s 출력하기
     }
     
     return 0;
