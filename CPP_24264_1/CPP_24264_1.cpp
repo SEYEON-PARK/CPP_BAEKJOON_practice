@@ -21,8 +21,8 @@ using namespace std;
 
 int main(void)
 {
-    long long n;
-    cin >> n;
+    long long n; // 변수 선언
+    cin >> n; // 사용자로부터 정수 입력받기
     
     cout << n*n << "\n2";
     
