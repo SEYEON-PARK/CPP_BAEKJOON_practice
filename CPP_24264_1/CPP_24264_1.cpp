@@ -21,10 +21,10 @@ using namespace std;
 
 int main(void)
 {
-    long long n; // 변수 선언
+    long long n; // 변수 선언(충분히 큰 크기를 입력받아야 하기 떄문에 long long으로 선언했다.)
     cin >> n; // 사용자로부터 정수 입력받기
     
-    cout << n*n << "\n2";
+    cout << n*n << "\n2"; // 결과 출력하기
     
     return 0;
 }
