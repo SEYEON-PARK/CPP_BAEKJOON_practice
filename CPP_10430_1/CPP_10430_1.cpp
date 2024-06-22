@@ -15,7 +15,8 @@ int main(void)
 {
     int A, B, C; // 변수 선언
     cin >> A >> B >> C; // 사용자로부터 세 개의 정수 입력받기
-    
+
+    // 결과 출력하기
     cout << (A+B)%C << endl;
     cout << ((A%C) + (B%C))%C << endl;
     cout << (A*B)%C << endl;
