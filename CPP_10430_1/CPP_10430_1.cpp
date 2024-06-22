@@ -13,8 +13,8 @@ using namespace std;
 
 int main(void)
 {
-    int A, B, C;
-    cin >> A >> B >> C;
+    int A, B, C; // 변수 선언
+    cin >> A >> B >> C; // 사용자로부터 세 개의 정수 입력받기
     
     cout << (A+B)%C << endl;
     cout << ((A%C) + (B%C))%C << endl;
