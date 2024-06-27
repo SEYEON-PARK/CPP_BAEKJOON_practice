@@ -21,8 +21,8 @@ using namespace std;
 
 int main(void)
 {
-    int N;
-    cin >> N;
+    int N; // 변수 선언
+    cin >> N; // 사용자로부터 정수 입력받기
     
     long long result = 0;
     
