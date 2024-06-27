@@ -24,12 +24,12 @@ int main(void)
     int N; // 변수 선언
     cin >> N; // 사용자로부터 정수 입력받기
     
-    long long result = 0;
+    long long result = 0; // 결과를 저장할 변수 선언 및 초기화(값이 커질 수 있으므로 long long으로 선언)
     
-    for(int i=N-1;i>0;i--)
-        result += i;
+    for(int i=N-1;i>0;i--) // i에 N-1부터 0보다 클 때까지 1씩 감소시킨 값을 대입하며 반복!
+        result += i; // result에 result + i의 값 대입하기
     
-    cout << result << endl << '2';
+    cout << result << endl << '2'; // 결과 출력하기
     
     return 0;
 }
