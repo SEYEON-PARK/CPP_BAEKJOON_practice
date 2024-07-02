@@ -14,11 +14,11 @@ using namespace std;
 
 int main(void)
 {
-    int white[6], original[6]={1, 1, 2, 2, 2, 8}, after[6];
+    int white[6], original[6]={1, 1, 2, 2, 2, 8}, after[6]; // 배열 선언 및 초기화
     
-    for(int i=0;i<6;i++)
+    for(int i=0;i<6;i++) // i에 0부터 6이 되기 전까지 1씩 증가시킨 값을 대입하며 반
     {
-        cin >> white[i];
+        cin >> white[i]; // 사용자로부터 정수 입력받기
     }
     
     for(int i=0;i<6;i++)
