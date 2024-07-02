@@ -8,3 +8,28 @@
 
 첫째 줄에 입력에서 주어진 순서대로 몇 개의 피스를 더하거나 빼야 되는지를 출력한다. 만약 수가 양수라면 동혁이는 그 개수 만큼 피스를 더해야 하는 것이고, 음수라면 제거해야 하는 것이다.
 */
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+    int white[6], original[6]={1, 1, 2, 2, 2, 8}, after[6];
+    
+    for(int i=0;i<6;i++)
+    {
+        cin >> white[i];
+    }
+    
+    for(int i=0;i<6;i++)
+    {
+        after[i]=original[i]-white[i];
+    }
+    
+    for(int i=0;i<6;i++)
+    {
+        cout << after[i] << ' ';
+    }
+    
+    return 0;
+}
