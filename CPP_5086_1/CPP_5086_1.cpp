@@ -18,19 +18,19 @@ using namespace std;
 
 int main(void)
 {
-    int a, b;
-    cin >> a >> b;
+    int a, b; // 변수 선언
+    cin >> a >> b; // 사용자로부터 두 개의 정수 입력받기
     
-    while(a != 0 && b != 0)
+    while(a != 0 && b != 0) // a가 0이 아니고, b도 0이 아니라면 계속 반복
     {
-        if(a % b == 0)
-            cout << "multiple\n";
-        else if(b % a == 0)
-            cout << "factor\n";
-        else
-            cout << "neither\n";
+        if(a % b == 0) // 만약, a % b의 값이 0과 같다면
+            cout << "multiple\n"; // "multiple\n" 출력하기
+        else if(b % a == 0) // 만약 a % b의 값이 0과 같지 않고, b % a의 값이 0과 같다면
+            cout << "factor\n"; // "factor\n" 출력하기
+        else // a % b의 값이 0과 같지 않고, b % a의 값도 0과 같지 않다면
+            cout << "neither\n"; // "neither\n" 출력하기
         
-        cin >> a >> b;
+        cin >> a >> b; // 다시 사용자로부터 두 개의 정수 입력받기
     }
     
     return 0;
