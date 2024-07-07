@@ -16,19 +16,19 @@ using namespace std;
 
 int main(void)
 {
-    int A, B, C;
-    cin >> A >> B >> C;
+    int A, B, C; // 변수 선언
+    cin >> A >> B >> C; // 사용자로부터 세 개의 정수 입력받기
     
-    cout << A+B-C << '\n';
+    cout << A+B-C << '\n'; // 정수로 생각했을 때 계산한 값 출력하기
     
-    if (B < 10)
-        cout << A*10+B-C;
-    else if (B < 100)
-        cout << A*100+B-C;
-    else if (B < 1000)
-        cout << A*1000+B-C;
-    else
-        cout << A*10000+B-C;
+    if (B < 10) // 만약, B가 10보다 작다면
+        cout << A*10+B-C; // 문자열로 생각했을 때 계산한 결과값 출력하기
+    else if (B < 100) // 만약, (10 <= B <100)이라면
+        cout << A*100+B-C; // 문자열로 생각했을 때 계산한 결과값 출력하기
+    else if (B < 1000) // 만약, (100 <= B <1000)이라면
+        cout << A*1000+B-C; // 문자열로 생각했을 때 계산한 결과값 출력하기
+    else // 만약, (1000 <= B)이라면
+        cout << A*10000+B-C; // 문자열로 생각했을 때 계산한 결과값 출력하기
     
     return 0;
 }
