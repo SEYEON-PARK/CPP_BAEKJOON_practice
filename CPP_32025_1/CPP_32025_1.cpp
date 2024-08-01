@@ -21,13 +21,13 @@ using namespace std;
 
 int main(void)
 {
-    int H, W;
-    cin >> H >> W;
+    int H, W; // 변수 선언
+    cin >> H >> W; // 사용자로부터 정수 입력받기
     
-    if(H < W)
-        cout << (H*100)/2;
-    else
-        cout << (W*100)/2;
+    if(H < W) // 만약, H가 W보다 작다면(작은 수를 기준으로 원을 그리면 된다.)
+        cout << (H*100)/2; // H의 값을 기준으로 결과 출력하기
+    else // H가 W보다 작지 않다면(크거나 같다면)
+        cout << (W*100)/2; // W의 값을 기준으로 결과 출력하기
     
     return 0;
 }
