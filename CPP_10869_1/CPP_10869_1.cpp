@@ -11,9 +11,10 @@ using namespace std;
 
 int main(void)
 {
-    int A, B;
-    cin >> A >> B;
-    
+    int A, B; // 변수 선언
+    cin >> A >> B; // 사용자로부터 두 개의 정수 입력받기
+
+    // 결과 출력하기
     cout << A+B << "\n";
     cout << A-B << "\n";
     cout << A*B << "\n";
