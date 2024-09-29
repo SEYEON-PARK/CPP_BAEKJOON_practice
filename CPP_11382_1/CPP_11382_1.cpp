@@ -11,10 +11,10 @@ using namespace std;
 
 int main(void)
 {
-    long a, b, c;
-    cin >> a >> b >> c;
+    long a, b, c; // 변수 선언
+    cin >> a >> b >> c; // 사용자로부터 세 개의 정수 입력받기
     
-    cout << a+b+c;
+    cout << a+b+c; // 결과 출력하기
     
     return 0;
 }
