@@ -13,13 +13,13 @@ using namespace std;
 
 int main(void)
 {
-    int a, b;
-    cin >> a >> b;
-    while(a != 0 || b !=0)
+    int a, b; // 변수 선언
+    cin >> a >> b; // 사용자로부터 두 개의 정수 입력받기
+    while(a != 0 || b !=0) // a가 0이 아니거나, b가 0이 아니라면 계속 반복
     {
-        cout << a + b << endl;
+        cout << a + b << endl; // 결과(a+b) 출력하기
         
-        cin >> a >> b;
+        cin >> a >> b; // 다음 두 개의 정수 입력받기
     }
     
     return 0;
