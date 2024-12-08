@@ -13,15 +13,15 @@ using namespace std;
 
 int main(void)
 {
-    int N;
-    cin >> N;
+    int N; // 변수 선언
+    cin >> N; // 사용자로부터 정수 입력받기
     
-    for(int i=0;i<N;i++)
+    for(int i=0;i<N;i++) // i에 0부터 N보다 작을 때까지 1씩 증가시킨 값을 대입하며 반복
     {
-        int V, E;
-        cin >> V >> E;
+        int V, E; // 변수 선언
+        cin >> V >> E; // 사용자로부터 두 개의 정수 입력받기
         
-        cout << E-V+2 << endl;
+        cout << E-V+2 << endl; // 결과 출력하기
     }
     
     return 0;
