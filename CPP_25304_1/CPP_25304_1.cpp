@@ -17,19 +17,19 @@ using namespace std;
 
 int main(void)
 {
-    int X, N, a, b, i, sum=0;
-    cin >> X >> N;
+    int X, N, a, b, i, sum=0; // 변수 선언 및 초기화
+    cin >> X >> N; // 사용자로부터 두 개의 정수(총 금액, 구매한 물건의 종류의 수) 입력받기
 
-    for(i=N;i>0;i--)
+    for(i=N;i>0;i--) // N번 반복
     {
-        cin >> a >> b;
-        sum+=(a*b);
+        cin >> a >> b; // 사용자로부터 두 개의 정수(각 물건의 가격, 개수) 입력받기
+        sum+=(a*b); // sum에 sum + (a*b)의 값 대입하기
     }
 
-    if(sum==X)
-        cout << "Yes";
-    else
-        cout << "No";
+    if(sum==X) // 만약, sum이 X와 같다면
+        cout << "Yes"; // "Yes" 출력하기
+    else // sum이 X와 같지 않다면(다르다면)
+        cout << "No"; // "No" 출력하기
     
     return 0;
 }
