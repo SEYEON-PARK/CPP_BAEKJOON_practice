@@ -12,7 +12,7 @@ using namespace std;
 
 int main(void)
 {
-    double A, B; // 변수 선언
+    double A, B; // 변수 선언 (정수이지만, double로 선언한 이유 : (정수 / 정수)는 결과도 정수일 수밖에 없기 때문에)
     cin >> A >> B; // 사용자로부터 두 개의 정수 입력받기
     
     cout << fixed << setprecision(9); // 소수점 이하 9자리까지 정확하게 표시함.
