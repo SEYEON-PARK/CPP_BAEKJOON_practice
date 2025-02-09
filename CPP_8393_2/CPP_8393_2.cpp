@@ -19,7 +19,7 @@ int main(void)
         sum+=i; // sum에 sum+i를 대입하기
     }
     
-    cout << sum; // 결과 출력하기
+    cout << sum; // 결과(1부터 n까지의 합) 출력하기
     
     return 0;
 }
