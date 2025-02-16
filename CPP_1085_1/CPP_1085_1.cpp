@@ -26,7 +26,7 @@ int main(void)
     
     for(int i=0;i<4;i++) // i에 0부터 4가 되기 전까지 1씩 증가시킨 값을 대입하며 반복
     {
-        if(r[i]<min) // 만약, r[i]가 min보다 크다면
+        if(r[i]<min) // 만약, r[i]가 min보다 작다면
             min=r[i]; // min에 r[i] 대입하기
     }
     
