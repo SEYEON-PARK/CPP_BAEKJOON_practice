@@ -27,7 +27,7 @@ int main(void)
                 cout << '*'; // '*' 출력하기
             }
             
-            cout << '\n';
+            cout << '\n'; // 한 줄 띄기
         }
         else
         {
