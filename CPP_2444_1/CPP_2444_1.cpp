@@ -29,7 +29,7 @@ int main(void)
             
             cout << '\n'; // 한 줄 띄기
         }
-        else
+        else // 만약, i가 N-1보다 작거나 같지 않다면(크다면)
         {
             for(int j=0;j<i-N+1;j++)
             {
