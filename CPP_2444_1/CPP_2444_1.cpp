@@ -31,7 +31,7 @@ int main(void)
         }
         else // i가 N-1보다 작거나 같지 않다면(크다면)
         {
-            for(int j=0;j<i-N+1;j++)
+            for(int j=0;j<i-N+1;j++) // j에 0부터 i-N+1이 되기 전까지 1씩 증가시킨 값을 대입하며 반복
             {
                 cout << ' ';
             }
