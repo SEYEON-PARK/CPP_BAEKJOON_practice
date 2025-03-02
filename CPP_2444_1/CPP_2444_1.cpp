@@ -37,7 +37,7 @@ int main(void)
             }
             for(int k=2*N-minus;k>0;k--) // k에 2*N-minus부터 0보다 클 때까지 1씩 감소시킨 값을 대입하며 반복
             {
-                cout << '*';
+                cout << '*'; // '*' 출력하기
             }
             minus+=2;
             
