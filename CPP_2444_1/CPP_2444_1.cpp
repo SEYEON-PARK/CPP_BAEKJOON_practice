@@ -39,7 +39,7 @@ int main(void)
             {
                 cout << '*'; // '*' 출력하기
             }
-            minus+=2;
+            minus+=2; // minus에 minus+2의 값 대입하기
             
             cout << '\n';
         }
