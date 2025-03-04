@@ -41,7 +41,7 @@ int main(void)
             }
             minus+=2; // minus에 minus+2의 값 대입하기
             
-            cout << '\n';
+            cout << '\n'; // 한 줄 띄기
         }
         
         
