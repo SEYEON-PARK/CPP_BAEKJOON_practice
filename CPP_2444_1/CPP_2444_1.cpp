@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void)
+int main(void) // main 함수
 {
     int N, minus=3; // 변수 선언 및 초기화
     cin >> N; // 사용자로부터 정수 입력받기
