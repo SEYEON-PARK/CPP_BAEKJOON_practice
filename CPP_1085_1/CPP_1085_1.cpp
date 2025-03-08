@@ -30,7 +30,7 @@ int main(void)
             min=r[i]; // min에 r[i] 대입하기
     }
     
-    cout << min; // 결과 출력하기
+    cout << min; // 결과(직사각형의 경계선까지 가는 거리의 최솟값) 출력하기
     
     return 0;
 }
